@@ -1,10 +1,10 @@
 pipeline {
     agent any
-
-    stages {
-        dir('C:\\Users\\chirag kamani\\Desktop\\Test') {
+    dir('C:\\Users\\chirag kamani\\Desktop\\Test') {
             echo 'Dir'
         }
+    stages {
+        
         stage('Build') {
             steps {
                 echo 'Building..'
